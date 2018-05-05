@@ -14,11 +14,13 @@ have the following scripts to run and evaluate the results:
 We have tested our scripts only on a Windows machine but it should work on Linux as well.
 
 ## Dependencies
-| Dependency                                        |
-|---------------------------------------------------|
-| [face swap](https://github.com/ofirc/face_swap/)  |
-| [StarGAN](https://github.com/ofirc/StarGAN)       |
-| [Anaconda](https://www.anaconda.com/)             |
+| Dependency                                                           |
+|----------------------------------------------------------------------|
+| [face swap](https://github.com/ofirc/face_swap/)                     |
+| [face segmentation](https://github.com/ofirc/face_segmentation)      |
+| [find_face_landmarks](https://github.com/ofirc/find_face_landmarks)  |
+| [StarGAN](https://github.com/ofirc/StarGAN)                          |
+| [Anaconda](https://www.anaconda.com/)                                |
 
 ## Usage
 1. Open an Anaconda Prompt
