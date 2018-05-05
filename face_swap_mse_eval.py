@@ -1,7 +1,7 @@
 """Evaluate face swap pixel alignment on video (with MSE).
 
-e.g. python eval_face_swap.py --video VID_20180131_200933.mp4
-     python eval_face_swap.py --frames <frames dir>
+e.g. python face_swap_mse_eval.py --video video.mp4
+     python face_swap_mse_eval.py --frames <frames dir>
 
 Pipeline:
 1) Take a video break it into frames (or use --frames frames)
@@ -20,7 +20,7 @@ b) Apply W on on every consecutive pair of (StarGAN) frames
    calculate MSE: W(J1) - J2
 
 c) Summarize results
-                Test1, Test2, ... , TestN, Average
+  Test1, Test2, ... , TestN, Average
 W(I1)<--> I2  
 W(J1)<--> J2
 V(J1)<--> J2

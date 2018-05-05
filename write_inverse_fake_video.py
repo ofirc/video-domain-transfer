@@ -7,7 +7,6 @@ python write_inverse_fake_video.py \
 import os
 import sys
 
-import cv2
 import skvideo.io
 import numpy as np
 
