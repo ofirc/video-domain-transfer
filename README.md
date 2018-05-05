@@ -4,6 +4,7 @@ Misc tools and automation scripts for face_swap, StarGAN and video editing.
 # Overview
 For each of the methods described in the "Unsupervised video to video translation" paper we
 have the following scripts to run and evaluate the results:
+
 | Approach                                                           | Script                    |
 |--------------------------------------------------------------------|---------------------------|
 | MSE evaluation of vanilla StarGAN                                  | face_swap_mse_eval.py     |
