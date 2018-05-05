@@ -16,6 +16,7 @@ We have tested our scripts only on a Windows machine but it should work on Linux
 ## Dependencies
 | Dependency                                                           |
 |----------------------------------------------------------------------|
+| [leveldb](https://github.com/ofirc/leveldb)                          |
 | [face swap](https://github.com/ofirc/face_swap/)                     |
 | [face segmentation](https://github.com/ofirc/face_segmentation)      |
 | [find_face_landmarks](https://github.com/ofirc/find_face_landmarks)  |
